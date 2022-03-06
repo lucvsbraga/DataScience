@@ -2,7 +2,7 @@
 
 ## Etapa 1 - Pacotes e autentificação.
 
-setwd("C:/Users/Lucas/Documents/R/DSA - R/Projetos/AnaliseDeSentimento")
+
 library(rtweet)
 library(stringr)
 library(ggplot2)
