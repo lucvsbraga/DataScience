@@ -2,7 +2,7 @@
 
 ## Etapa 1 - Pacotes e autentificação.
 
-
+setwd("C:/Users/Lucas/Documents/R/DSA - R/Projetos/AnaliseDeSentimento")
 library(rtweet)
 library(stringr)
 library(ggplot2)
@@ -52,7 +52,7 @@ tweetcorpus <- stri_trans_tolower(tweets$text)
 tweetcorpus <- VCorpus(VectorSource(tweetcorpus))
 tweetcorpus <- tm_map(tweetcorpus, removePunctuation)
 tweetcorpus <-
-  tm_map(tweetcorpus, removeWords, stopwords("portuguese"))
+  tm_map(tweetcorpus, removeWords, stopwords("en"))
 
 
 # WordCloud
