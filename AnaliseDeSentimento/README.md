@@ -116,7 +116,7 @@ tweetcorpus <- stri_trans_tolower(tweets$text)
 tweetcorpus <- VCorpus(VectorSource(tweetcorpus))
 tweetcorpus <- tm_map(tweetcorpus, removePunctuation)
 tweetcorpus <-
-  tm_map(tweetcorpus, removeWords, stopwords("portuguese"))
+  tm_map(tweetcorpus, removeWords, stopwords("english"))
 ```
 :::
 
