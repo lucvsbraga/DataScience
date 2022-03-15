@@ -5,7 +5,7 @@ despesas <- read.csv("despesas.csv")
 # Visualizando as variáveis
 str(despesas)
 
-# medidas de Tendência Central da variável gastos
+# Medidas de Tendência Central da variável gastos
 summary(despesas$gastos)
 
 # Construindo um histograma
