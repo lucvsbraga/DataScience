@@ -5,3 +5,5 @@
 ### Project 2 - Predicting the occurrence of cancer.
 
 ### Project 3 - Predicting hospital expenses.
+
+### Project 4 - Credit Analysis
